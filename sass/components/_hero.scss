@@ -1,0 +1,21 @@
+.main-section {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+  background-color: var(--secondary-bgr-color);
+  background-size: cover;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 200px 0;
+}
+.main {
+  font-size: 44px;
+  max-width: 696px;
+  margin: 0 auto 30px;
+}

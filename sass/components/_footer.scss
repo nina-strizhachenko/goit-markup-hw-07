@@ -1,0 +1,29 @@
+.address {
+  margin-top: 20px;
+}
+.footer-contact-list {
+  display: block;
+}
+.map-link {
+  color: var(--secondary-text-color);
+  transition: color var(--transition-cubic);
+}
+.map-link:hover,
+.map-link:focus {
+  color: var(--accent-color);
+}
+.footer-section {
+  padding: 60px 0;
+  background-color: var(--secondary-bgr-color);
+}
+.contact-link {
+  color: var(--secondary-shade-text-color);
+  transition: color var(--transition-cubic);
+}
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--accent-color);
+}
+.footer-item:not(:last-child) {
+  margin-bottom: 9px;
+}

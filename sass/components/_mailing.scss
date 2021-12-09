@@ -1,0 +1,39 @@
+.mailing-container {
+  margin-left: auto;
+  margin-top: 12px;
+}
+
+.mailing-input-form {
+  display: flex;
+}
+.mailing-input {
+  margin-right: 12px;
+  border-radius: 4px;
+  padding-left: 16px;
+  background-color: transparent;
+  transition: border-color var(--transition-cubic);
+  width: 358px;
+  min-height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.E-mail {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.25;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-shade-text-color);
+}
+
+.subscribe-btn {
+  align-items: center;
+  display: inline-flex;
+}
+
+.mailing-send {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-left: 10px;
+}
