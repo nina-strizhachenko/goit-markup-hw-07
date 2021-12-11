@@ -6,3 +6,31 @@
   display: flex;
   align-items: center;
 }
+
+.header-contact-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-shade-2-text-color);
+  padding: 32px 0;
+  transition: color var(--transition-cubic);
+  & {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.header-contact-icon {
+  margin-right: 10px;
+  & {
+    fill: currentColor;
+  }
+}

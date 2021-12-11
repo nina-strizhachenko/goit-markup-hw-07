@@ -1,23 +1,7 @@
-.backdrop {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.2);
-  position: fixed;
-  top: 0;
-  left: 0;
-  transition: opacity 250ms, visibility 250ms;
-}
-
-.backdrop.is-hidden .modal {
-  transform: scale(0.7);
-}
-
 .modal {
   width: 528px;
   min-height: 581px;
+  padding: 40px;
   background-color: var(--primary-bgr-color);
   border-radius: 5px;
   position: absolute;
@@ -44,16 +28,6 @@
 .close-icon:focus {
   fill: var(--accent-color);
   transition: fill var(--transition-cubic);
-}
-
-.is-hidden {
-  visibility: hidden;
-  opacity: 0;
-  pointer-events: none;
-}
-
-.modal {
-  padding: 40px;
 }
 
 .modal-title {
@@ -90,14 +64,12 @@
   background-color: transparent;
   color: var(--primary-text-color);
   transition: border-color var(--transition-cubic);
-}
-
-.modal-input:focus + .input-icon {
-  fill: var(--accent-color);
-}
-
-.modal-input:focus {
-  border-color: var(--accent-color);
+  &:focus + .input-icon {
+    fill: var(--accent-color);
+  }
+  &:focus {
+    border-color: var(--accent-color);
+  }
 }
 
 .input-icon {
@@ -128,16 +100,16 @@
   outline: none;
   padding: 12px 16px;
   resize: none;
-}
-.modal-text:focus {
-  border-color: var(--accent-color);
-}
-.modal-text::placeholder {
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 14px;
-  letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
+  &:focus {
+    border-color: var(--accent-color);
+  }
+  &::placeholder {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
+  }
 }
 
 .checkbox-field {
@@ -153,17 +125,16 @@
   color: var(--primary-shade-2-text-color);
   display: flex;
   align-items: center;
-}
-
-.modal-check-text span {
-  width: 16px;
-  height: 15px;
-  border: 2px solid #212121;
-  margin-right: 8px;
-  border-radius: 2px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  span {
+    width: 16px;
+    height: 15px;
+    border: 2px solid #212121;
+    margin-right: 8px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 .icon-check {
   fill: #ffffff;

@@ -19,6 +19,32 @@
   --transition-cubic: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.current {
-  color: var(--accent-color);
+.general-styles {
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.footer-styles {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+  color: var(--primary-shade-text-color);
+}
+.footer-title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+  margin-bottom: 12px;
 }

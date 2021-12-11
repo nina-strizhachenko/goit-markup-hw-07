@@ -27,35 +27,3 @@
   font-size: 16px;
   color: var(--primary-shade-2-text-color);
 }
-.teammate-social-item {
-  width: 44px;
-  height: 44px;
-}
-.teammate-social-item + .teammate-social-item {
-  margin-left: 10px;
-}
-.teammate-social-link {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background-color var(--transition-cubic);
-}
-.teammate-social-link:hover,
-.teammate-social-link:focus {
-  background-color: var(--accent-color);
-}
-.teammate-social-link:hover .teammate-social-icon,
-.teammate-social-link:focus .teammate-social-icon {
-  fill: var(--secondary-text-color);
-}
-.teammate-social-icon {
-  fill: var(--border-clients-color);
-  transition: fill var(--transition-cubic);
-}
-.teammate-social-list {
-  display: flex;
-  justify-content: center;
-}
