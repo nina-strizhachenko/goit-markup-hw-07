@@ -1,10 +1,10 @@
 .team {
   background-color: var(--secondary-shade-bgr-color);
 }
-.team-list {
+.teams {
   display: flex;
 }
-.team-item:not(:last-child) {
+.teams__item:not(:last-child) {
   margin-right: 30px;
 }
 .teammate {
@@ -14,13 +14,13 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.teammate-name {
+.teammate__name {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   color: var(--primary-shade-text-color);
 }
-.teammate-position {
+.teammate__position {
   margin-top: 10px;
   margin-bottom: 16px;
   font-weight: 400;

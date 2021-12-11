@@ -1,13 +1,23 @@
-.header-portfolio {
-  border: 1px solid var(--border-header-color);
-}
-
 .header-container {
   display: flex;
   align-items: center;
 }
 
-.header-contact-link {
+.header-contacts {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.header-portfolio {
+  border: 1px solid var(--border-header-color);
+}
+
+.contact:not(:last-child) {
+  margin-right: 50px;
+}
+
+.contact__link {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -28,7 +38,7 @@
   }
 }
 
-.header-contact-icon {
+.contact__icon {
   margin-right: 10px;
   & {
     fill: currentColor;

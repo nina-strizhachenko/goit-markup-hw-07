@@ -1,12 +1,12 @@
-.clients-list {
+.clients {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.client-item + .client-item {
+.wrapp + .wrapp {
   margin-left: 30px;
 }
-.client-link {
+.client__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,6 +26,6 @@
   }
 }
 
-.client-icon {
+.client__icon {
   fill: currentColor;
 }

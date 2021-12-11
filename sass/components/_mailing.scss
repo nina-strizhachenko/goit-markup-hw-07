@@ -3,10 +3,10 @@
   margin-top: 12px;
 }
 
-.mailing-input-form {
+.mailing-form {
   display: flex;
 }
-.mailing-input {
+.mailing-form__input {
   margin-right: 12px;
   border-radius: 4px;
   padding-left: 16px;
@@ -26,12 +26,12 @@
   color: var(--secondary-shade-text-color);
 }
 
-.subscribe-btn {
+.mailing-form__btn {
   align-items: center;
   display: inline-flex;
 }
 
-.mailing-send {
+.mailing-form__send {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

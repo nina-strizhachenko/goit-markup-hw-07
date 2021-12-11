@@ -1,12 +1,12 @@
-.join-list {
+.join {
   display: flex;
   padding: 0;
 }
-.join-item + .join-item {
+.join-wrapp + .join-wrapp {
   margin-left: 10px;
 }
 
-.join-link {
+.social-white__link {
   border-radius: 50%;
   display: flex;
   align-items: center;

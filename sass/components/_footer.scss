@@ -2,11 +2,11 @@
   margin-top: 20px;
 }
 
-.footer-contact-list {
+.contacts {
   display: block;
 }
 
-.map-link {
+.contact__map {
   color: var(--secondary-text-color);
   transition: color var(--transition-cubic);
   &:hover,
@@ -20,7 +20,7 @@
   background-color: var(--secondary-bgr-color);
 }
 
-.contact-link {
+.contact__link {
   color: var(--secondary-shade-text-color);
   transition: color var(--transition-cubic);
   &:hover,
@@ -29,6 +29,6 @@
   }
 }
 
-.footer-item:not(:last-child) {
+.box:not(:last-child) {
   margin-bottom: 9px;
 }
