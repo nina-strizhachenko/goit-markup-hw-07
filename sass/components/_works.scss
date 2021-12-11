@@ -1,7 +1,7 @@
-.work-item {
+.works__item {
   position: relative;
 }
-.container-work-example {
+.works__container-work-example {
   background: rgba(47, 48, 58, 0.8);
   width: 100%;
   position: absolute;
@@ -10,7 +10,7 @@
   left: 0;
   bottom: 0;
 }
-.work-example {
+.works__work-example {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -22,9 +22,9 @@
 .section-work {
   padding-top: 47px;
 }
-.work-list {
+.works {
   display: flex;
 }
-.work-item:not(:last-child) {
+.works__item:not(:last-child) {
   margin-right: 30px;
 }

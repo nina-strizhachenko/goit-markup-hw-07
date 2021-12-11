@@ -351,15 +351,11 @@ img {
   color: var(--primary-shade-2-text-color);
 }
 
-.work__item {
+.works__item {
   position: relative;
 }
 
-.work__item:not(:last-child) {
-  margin-right: 30px;
-}
-
-.work__example {
+.works__container-work-example {
   background: rgba(47, 48, 58, 0.8);
   width: 100%;
   position: absolute;
@@ -369,7 +365,7 @@ img {
   bottom: 0;
 }
 
-.work__text {
+.works__work-example {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -379,12 +375,16 @@ img {
   color: var(--secondary-text-color);
 }
 
-.works {
+.section-work {
   padding-top: 47px;
 }
 
-.work {
+.works {
   display: flex;
+}
+
+.works__item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .team {
