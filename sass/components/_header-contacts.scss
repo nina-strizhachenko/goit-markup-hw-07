@@ -13,11 +13,11 @@
   border: 1px solid var(--border-header-color);
 }
 
-.contact:not(:last-child) {
+.header-contact:not(:last-child) {
   margin-right: 50px;
 }
 
-.contact__link {
+.header-contact__link {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
