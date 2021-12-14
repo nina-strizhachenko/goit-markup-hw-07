@@ -4,6 +4,12 @@
 .teams {
   display: flex;
 }
+
+.teammate__styles {
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
 .teams__item:not(:last-child) {
   margin-right: 30px;
 }

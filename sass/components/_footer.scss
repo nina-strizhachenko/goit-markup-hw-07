@@ -1,3 +1,20 @@
+.footer-styles {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.footer__title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $secondary-text-color;
+  margin-bottom: 12px;
+}
+
 .address {
   margin-top: 20px;
 }
@@ -7,25 +24,25 @@
 }
 
 .contact__map {
-  color: var(--secondary-text-color);
-  transition: color var(--transition-cubic);
+  color: $secondary-text-color;
+  transition: color $transition-cubic;
   &:hover,
   &:focus {
-    color: var(--accent-color);
+    color: $accent-color;
   }
 }
 
 .footer-section {
   padding: 60px 0;
-  background-color: var(--secondary-bgr-color);
+  background-color: $secondary-bgr-color;
 }
 
 .contact__link {
-  color: var(--secondary-shade-text-color);
-  transition: color var(--transition-cubic);
+  color: $primary-shade-text-color;
+  transition: color $transition-cubic;
   &:hover,
   &:focus {
-    color: var(--accent-color);
+    color: $accent-color;
   }
 }
 

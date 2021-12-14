@@ -5,8 +5,8 @@
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--secondary-text-color);
-  background-color: var(--secondary-bgr-color);
+  color: $secondary-text-color;
+  background-color: $secondary-bgr-color;
   background-size: cover;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/hero-bg.jpg);
@@ -14,7 +14,7 @@
   background-position: center;
   padding: 200px 0;
 }
-.main {
+.hero-title {
   font-size: 44px;
   max-width: 696px;
   margin: 0 auto 30px;

@@ -3,29 +3,29 @@
   justify-content: center;
   align-items: center;
 }
-.wrapp + .wrapp {
+.clients__item :not(:last-child) {
   margin-left: 30px;
 }
-.client__link {
+.clients__link {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 170px;
   height: 92px;
-  border: 1px solid var(--border-clients-color);
+  border: 1px solid $border-clients-color;
   border-radius: 4px;
-  color: #afb1b8;
-  transition: border var(--transition-cubic), color var(--transition-cubic);
+  color: $border-clients-color;
+  transition: border $transition-cubic, color $transition-cubic;
   &:hover,
   &:focus {
-    border-color: var(--accent-color);
+    border-color: $accent-color;
   }
   &:hover,
   &:focus {
-    color: var(--accent-color);
+    color: $accent-color;
   }
 }
 
-.client__icon {
+.clients__icon {
   fill: currentColor;
 }

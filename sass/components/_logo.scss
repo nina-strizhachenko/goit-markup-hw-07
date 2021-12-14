@@ -6,14 +6,14 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-.logo-web {
-  color: var(--accent-color);
+.logo__web {
+  color: $accent-color;
 }
-.logo-black {
-  color: var(--primary-text-color);
+.logo--black {
+  color: $primary-text-color;
 }
-.logo-white {
-  color: var(--secondary-text-color);
+.logo--white {
+  color: $secondary-text-color;
 }
 .container-logo-icons {
   display: flex;
