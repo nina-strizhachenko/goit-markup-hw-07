@@ -1,4 +1,4 @@
-.nav {
+.header_nav {
   margin-left: 93px;
 }
 .site-nav {
@@ -18,7 +18,7 @@
   display: block;
   transition: color $transition-cubic;
   position: relative;
-  &.current::after {
+  &__link.current::after {
     content: '';
     position: absolute;
     left: 0;

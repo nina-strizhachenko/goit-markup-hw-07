@@ -1,7 +1,7 @@
 .works__item {
   position: relative;
 }
-.works__container-work-example {
+.works__text-wrapp {
   background: rgba(47, 48, 58, 0.8);
   width: 100%;
   position: absolute;
@@ -10,14 +10,14 @@
   left: 0;
   bottom: 0;
 }
-.works__work-example {
-  font-weight: bold;
+.works__text {
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--secondary-text-color);
+  color: $secondary-text-color;
 }
 .section-work {
   padding-top: 47px;

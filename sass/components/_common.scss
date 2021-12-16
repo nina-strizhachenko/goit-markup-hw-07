@@ -1,14 +1,54 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-text-color);
+  background-color: var(--primary-bgr-color);
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .section {
   padding: 94px 0;
 }
+
+.section-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: $primary-shade-text-color;
+  margin-bottom: 50px;
+}
+
 .container {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
 }
+
 .list {
   list-style: none;
 }
+
 .link {
   text-decoration: none;
 }

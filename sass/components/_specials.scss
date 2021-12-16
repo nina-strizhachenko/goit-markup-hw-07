@@ -1,7 +1,7 @@
-.pictures {
+.special-list__icon-wrapp {
   display: flex;
   justify-content: center;
-  background-color: var(--secondary-shade-bgr-color);
+  background-color: $secondary-shade-bgr-color;
   padding: 25px 100px;
   margin-bottom: 30px;
   border-radius: 4px;
@@ -18,27 +18,27 @@
   display: flex;
 }
 
-.special-item {
+.special-list__item {
   margin-right: 30px;
-  &:last-child {
-    margin-right: 0;
+  &:not(:last-child) {
+    margin-right: 30px;
   }
 }
 
-.special-title {
+.special-list__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-shade-text-color);
+  color: $primary-shade-text-color;
   margin-bottom: 10px;
 }
 
-.special-text {
+.special-list__text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--primary-shade-2-text-color);
+  color: $primary-shade-2-text-color;
 }
