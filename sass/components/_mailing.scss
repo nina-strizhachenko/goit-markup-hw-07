@@ -3,10 +3,10 @@
   margin-top: 12px;
 }
 
-.mailing-form {
+.subscrib__form {
   display: flex;
 }
-.mailing-form__input {
+.subscrib__input {
   margin-right: 12px;
   border-radius: 4px;
   padding-left: 16px;
@@ -25,13 +25,13 @@
   letter-spacing: 0.03em;
   color: $secondary-shade-text-color;
 }
-
-.mailing-form__btn {
+// ---модификатор--
+.primary-btn--flex {
   align-items: center;
   display: inline-flex;
 }
 
-.mailing-form__send {
+.primary-btn--icon {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

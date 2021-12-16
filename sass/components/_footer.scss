@@ -1,10 +1,10 @@
-.footer-styles {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-}
+// .footer-styles {
+//   font-style: normal;
+//   font-weight: 400;
+//   font-size: 14px;
+//   line-height: 1.71;
+//   letter-spacing: 0.03em;
+// }
 
 .footer__title {
   font-size: 14px;
@@ -19,31 +19,46 @@
   margin-top: 20px;
 }
 
-.footer--contacts {
+.address__contacts {
   display: block;
 }
 
-.contact__map {
+.address__map {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   color: $secondary-text-color;
   transition: color $transition-cubic;
-  &:hover,
-  &:focus {
+  &__map:hover,
+  &__map:focus {
     color: $accent-color;
   }
 }
 
-.footer-section {
+.footer {
   padding: 60px 0;
   background-color: $secondary-bgr-color;
 }
 
-.contact__link {
-  color: $primary-shade-text-color;
+.address__link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: $secondary-shade-text-color;
   transition: color $transition-cubic;
-  &:hover,
-  &:focus {
+  &__link:hover,
+  &__link:focus {
     color: $accent-color;
   }
+}
+
+.footer__container {
+  display: flex;
+  align-items: baseline;
 }
 
 .box:not(:last-child) {

@@ -3,3 +3,11 @@
   margin-left: 70px;
   margin-top: 12px;
 }
+
+.join {
+  display: flex;
+  padding: 0;
+}
+.join-wrapp + .join-wrapp {
+  margin-left: 10px;
+}

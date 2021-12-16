@@ -1,13 +1,11 @@
-.filter-wrapp {
-  margin-bottom: 50px;
-}
-.filter-wrapp {
+.filter {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
-.filter__item-btn:not(:last-child) {
+.filter__item:not(:last-child) {
   margin-right: 8px;
 }
-.filter__item-btn {
+.filter__item {
   margin-right: 8px;
 }
