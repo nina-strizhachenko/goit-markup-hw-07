@@ -5,12 +5,6 @@
   display: flex;
 }
 
-// -----плейсхолдер %---
-.team-list-teammate__styles {
-  line-height: 1.19;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
 .team-list__item:not(:last-child) {
   margin-right: 30px;
 }
@@ -22,12 +16,15 @@
   border-radius: 0px 0px 4px 4px;
 }
 .team-list__teammate-name {
+  text-align: center;
   font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
+  @include font(500, 16px, 1.19, 0.03em);
   color: $primary-shade-text-color;
 }
 .team-list__teammate-position {
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
   margin-top: 10px;
   margin-bottom: 16px;
   font-weight: 400;

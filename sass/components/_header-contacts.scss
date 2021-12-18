@@ -4,7 +4,7 @@
 }
 
 .contacts {
-  display: flex;
+  @extend %link;
   align-items: center;
   margin-left: auto;
 }
@@ -14,19 +14,16 @@
 }
 
 .contacts__link {
-  font-family: Roboto;
   font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+  @include font(500, 14px, 1.14, 0.02em);
   color: $primary-shade-2-text-color;
   padding: 32px 0;
   transition: color $transition-cubic;
+  @extend %link;
 }
 
 .contacts__item {
-  display: flex;
+  @extend %link;
   align-items: center;
   justify-content: center;
   margin-left: 30px;

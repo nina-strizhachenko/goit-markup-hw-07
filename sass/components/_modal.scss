@@ -20,9 +20,7 @@
   background: $primary-bgr-color;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @extend %social;
 }
 .close-icon:hover,
 .close-icon:focus {
@@ -30,12 +28,9 @@
   transition: fill transition-cubic;
 }
 
-.modal-title {
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 1.15;
+.modal-main__title {
   text-align: center;
-  letter-spacing: 0.03em;
+  @include font(700, 20px, 1.15, 0.03em);
   color: $primary-shade-text-color;
   margin-bottom: 12px;
 }
@@ -45,7 +40,7 @@
 }
 
 .modal-form__input-text {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
@@ -104,7 +99,7 @@
     border-color: $accent-color;
   }
   &::placeholder {
-    font-weight: normal;
+    font-weight: 400;
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.01em;
@@ -118,7 +113,7 @@
 }
 
 .modal-check__text {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;

@@ -4,7 +4,7 @@
 }
 
 .subscrib__form {
-  display: flex;
+  @extend %link;
 }
 .subscrib__input {
   margin-right: 12px;
@@ -17,15 +17,12 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 .E-mail {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 1.25;
-  display: flex;
+  @include font(400, 16px, 1.25, 0.03em);
+  @extend %link;
   align-items: center;
-  letter-spacing: 0.03em;
   color: $secondary-shade-text-color;
 }
-// ---модификатор--
+
 .primary-btn--flex {
   align-items: center;
   display: inline-flex;

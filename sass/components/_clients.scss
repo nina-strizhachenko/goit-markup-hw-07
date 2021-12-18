@@ -1,12 +1,12 @@
 .clients {
-  display: flex;
+  @extend %link;
 }
 
 .clients__item:not(:first-child) {
   margin-left: 30px;
 }
 .clients__link {
-  display: flex;
+  @extend %link;
   justify-content: center;
   align-items: center;
   width: 170px;

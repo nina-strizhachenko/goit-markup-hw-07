@@ -1,15 +1,8 @@
-// .footer-styles {
-//   font-style: normal;
-//   font-weight: 400;
-//   font-size: 14px;
-//   line-height: 1.71;
-//   letter-spacing: 0.03em;
-// }
-
 .footer__title {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+
   text-transform: uppercase;
   color: $secondary-text-color;
   margin-bottom: 12px;
@@ -25,10 +18,7 @@
 
 .address__map {
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  @include font(400, 14px, 1.71, 0.03em);
   color: $secondary-text-color;
   transition: color $transition-cubic;
   &__map:hover,
@@ -44,10 +34,7 @@
 
 .address__link {
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  @include font(400, 14px, 1.71, 0.03em);
   color: $secondary-shade-text-color;
   transition: color $transition-cubic;
   &__link:hover,
@@ -57,10 +44,14 @@
 }
 
 .footer__container {
-  display: flex;
+  @extend %link;
+  justify-content: space-between;
   align-items: baseline;
 }
 
-.box:not(:last-child) {
+.address__item {
+  margin-bottom: 9px;
+}
+.contact__item {
   margin-bottom: 9px;
 }
