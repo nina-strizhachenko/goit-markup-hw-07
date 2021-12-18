@@ -4,8 +4,8 @@
   @include font(700, 16px, 1.87, 0.06em);
   color: $secondary-text-color;
   background-color: $accent-color;
-  display: block;
   margin: 0 auto;
+  display: block;
   transition: background-color $transition-cubic;
   &:focus,
   &:hover {
