@@ -5,7 +5,7 @@
 }
 
 .join {
-  @extend %link;
+  @extend %d-flex;
   padding: 0;
 }
 .join-wrapp + .join-wrapp {

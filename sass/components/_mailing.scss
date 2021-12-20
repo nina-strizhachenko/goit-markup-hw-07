@@ -1,12 +1,7 @@
-.mailing-container {
-  margin-left: auto;
-  margin-top: 12px;
+.subscribe {
+  @extend %d-flex;
 }
-
-.subscrib__form {
-  @extend %link;
-}
-.subscrib__input {
+.subscribe__input {
   margin-right: 12px;
   border-radius: 4px;
   padding-left: 16px;
@@ -18,7 +13,7 @@
 }
 .E-mail {
   @include font(400, 16px, 1.25, 0.03em);
-  @extend %link;
+  @extend %d-flex;
   align-items: center;
   color: $secondary-shade-text-color;
 }

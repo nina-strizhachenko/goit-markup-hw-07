@@ -44,7 +44,7 @@
 }
 
 .footer__container {
-  @extend %link;
+  @extend %d-flex;
   justify-content: space-between;
   align-items: baseline;
 }

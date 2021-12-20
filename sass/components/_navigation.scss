@@ -1,14 +1,14 @@
 .header__nav {
   margin-left: 93px;
 }
-.nav {
+.nav-list {
   display: flex;
   align-items: center;
 }
-.nav__item:not(:last-child) {
+.nav-list__item:not(:last-child) {
   margin-right: 50px;
 }
-.nav__link {
+.nav-list__link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -19,7 +19,7 @@
   transition: color $transition-cubic;
   position: relative;
 }
-.nav__link--current::after {
+.nav-list__link--current::after {
   content: '';
   position: absolute;
   left: 0;
@@ -31,11 +31,11 @@
   background-color: $accent-color;
 }
 
-.current {
+.nav-list__link--current {
   color: $accent-color;
 }
 
-.nav__link:hover,
-.nav__link:focus {
+.nav-list__link:hover,
+.nav-list__link:focus {
   color: $accent-color;
 }

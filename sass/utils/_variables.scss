@@ -2,13 +2,13 @@ $primary-text-color: #000000;
 $secondary-text-color: #ffffff;
 $primary-shade-text-color: #212121;
 $primary-shade-2-text-color: #757575;
-$secondary-shade-text-color: rgba(255, 255, 255, 0.6);
+$secondary-shade-text-color: rgba($secondary-text-color, 0.6);
 $accent-color: #2196f3;
 
 $primary-bgr-color: #ffffff;
 $secondary-bgr-color: #2f303a;
-$bgr-accent-color: rgba(33, 150, 243, 0.9);
-$footer-social-bgr-color: rgba(255, 255, 255, 0.1);
+$bgr-accent-color: rgba($color, 0.9);
+$footer-social-bgr-color: rgba($secondary-text-color, 0.1);
 $secondary-shade-bgr-color: #f5f4fa;
 
 $border-header-color: #ececec;
@@ -16,3 +16,5 @@ $border-portfolio-item-color: #eeeeee;
 $border-clients-color: #afb1b8;
 
 $transition-cubic: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+$color: #2196f3;
