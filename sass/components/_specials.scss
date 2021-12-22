@@ -1,3 +1,11 @@
+.special {
+  padding-bottom: 47px;
+}
+
+.special-list {
+  display: flex;
+}
+
 .special-list__icon-wrapp {
   display: flex;
   justify-content: center;
@@ -8,14 +16,6 @@
   & + & {
     margin-left: 30px;
   }
-}
-
-.special {
-  padding-bottom: 47px;
-}
-
-.special-list {
-  display: flex;
 }
 
 .special-list__item {

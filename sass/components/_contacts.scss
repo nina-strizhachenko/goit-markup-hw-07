@@ -1,11 +1,5 @@
-.header__container {
-  display: flex;
-  align-items: center;
-}
-
 .contacts {
   @extend %d-flex;
-  align-items: center;
   margin-left: auto;
 }
 

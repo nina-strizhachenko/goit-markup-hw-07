@@ -3,18 +3,19 @@
 @import './utils/mixins';
 
 @import './components/common';
+@import './components/header';
 @import './components/buttons';
 @import './components/logo';
 @import './components/navigation';
-@import './components/header-contacts';
+@import './components/contacts';
 @import './components/hero';
 @import './components/specials';
 @import './components/works';
 @import './components/team';
-@import './components/social';
+@import './components/social-list';
 @import './components/clients';
 @import './components/footer';
-@import './components/join';
+@import './components/address';
 @import './components/mailing';
 @import './components/filter';
 @import './components/portfolio';

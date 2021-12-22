@@ -19,14 +19,15 @@
   color: $primary-shade-2-text-color;
 }
 
-.portfolio-list__description {
+.portfolio-list__description--overlay {
   position: absolute;
   top: 0;
   left: 0;
   padding: 63px 24px;
   height: 101%;
+  background-color: rgba(#2196f3, 0.9);
   transform: translateY(100%);
-  transition: transform(250ms);
+  transition: transform 250ms;
 }
 
 .portfolio-list__item:hover,
@@ -67,9 +68,4 @@
   line-height: 1.56;
   letter-spacing: 0.03em;
   color: $secondary-text-color;
-  background-color: $bgr-accent-color;
-}
-
-.header--border {
-  border: 1px solid $border-header-color;
 }

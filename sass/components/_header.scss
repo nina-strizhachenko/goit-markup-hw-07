@@ -1,0 +1,12 @@
+.header__container {
+  display: flex;
+  align-items: center;
+}
+
+.header__nav {
+  margin-left: 93px;
+}
+
+.header--border {
+  border: 1px solid $border-header-color;
+}

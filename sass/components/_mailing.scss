@@ -15,17 +15,5 @@
   @include font(400, 16px, 1.25, 0.03em);
   @extend %d-flex;
   align-items: center;
-  color: $secondary-shade-text-color;
-}
-
-.primary-btn--flex {
-  align-items: center;
-  display: inline-flex;
-}
-
-.primary-btn--icon {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin-left: 10px;
+  color: rgba($secondary-text-color, 0.6);
 }
