@@ -1,4 +1,4 @@
-.contacts, .contacts__link, .contacts__item, .clients, .clients__link, .footer__container, .subscribe, .E-mail {
+.contacts, .contacts__link, .contacts__item, .clients, .clients__link, .footer__container, .subscribe {
   display: flex;
 }
 
@@ -96,12 +96,6 @@ img {
   border: 1px solid #ececec;
 }
 
-.primary-btn--flex {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .primary-btn {
   cursor: pointer;
   font-family: inherit;
@@ -126,7 +120,13 @@ img {
   background-color: #2196f3;
 }
 
-.primary-btn--icon {
+.primary-btn--flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.primary-btn__icon {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -238,10 +238,6 @@ img {
   margin-left: auto;
 }
 
-.contacts:not(:last-child) {
-  margin-right: 50px;
-}
-
 .contacts__link {
   font-style: normal;
   font-weight: 500;
@@ -256,7 +252,10 @@ img {
 .contacts__item {
   align-items: center;
   justify-content: center;
-  margin-left: 30px;
+}
+
+.contacts__item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .contacts__link:hover,
@@ -426,14 +425,11 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-list__link--secondary-color {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
 .social-list__link {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  color: #afb1b8;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -441,9 +437,14 @@ img {
   background-color: #2196f3;
 }
 
+.social-list__link--secondary-color {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
 .social-list__link:hover .social-list__icon,
 .social-list__link:focus .social-list__icon {
-  fill: #ffffff;
+  color: #ffffff;
 }
 
 .social-list__item:not(:first-child) {
@@ -451,7 +452,7 @@ img {
 }
 
 .social-list__icon {
-  fill: #afb1b8;
+  fill: currentColor;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -545,20 +546,12 @@ img {
   margin-right: 12px;
   border-radius: 4px;
   padding-left: 16px;
+  color: #ffffff;
   background-color: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 358px;
   min-height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
-}
-
-.E-mail {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
-  align-items: center;
-  color: rgba(255, 255, 255, 0.6);
 }
 
 .filter {
@@ -689,24 +682,7 @@ img {
   margin-bottom: 10px;
 }
 
-.label {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
-  color: #757575;
-  background-color: transparent;
-  margin-bottom: 4px;
-  display: block;
-}
-
-.form-field-textarea {
-  margin-bottom: 20px;
-  display: flex;
-  flex-direction: column;
-}
-
-.input-groop-absolut {
+.input-group-absolut {
   position: relative;
 }
 
@@ -737,28 +713,6 @@ img {
   transform: translateY(-50%);
   left: 0;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.form-field-textarea__input {
-  width: 448px;
-  height: 120px;
-  border: 1px solid rgba(33, 33, 33, 0.2);
-  border-radius: 4px;
-  outline: none;
-  padding: 12px 16px;
-  resize: none;
-}
-
-.form-field-textarea__input:focus {
-  border-color: #2196f3;
-}
-
-.form-field-textarea__input::placeholder {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
-  letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
 }
 
 .checkbox-field {
@@ -799,5 +753,44 @@ img {
 .checkbox-field__input:checked + .checkbox-field__label span {
   background-color: #2196f3;
   border: none;
+}
+
+.form-field-textarea {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field-textarea__input {
+  width: 448px;
+  height: 120px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  outline: none;
+  padding: 12px 16px;
+  resize: none;
+}
+
+.form-field-textarea__input:focus {
+  border-color: #2196f3;
+}
+
+.form-field-textarea__input::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+}
+
+.label {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  color: #757575;
+  background-color: transparent;
+  margin-bottom: 4px;
+  display: block;
 }
 /*# sourceMappingURL=main.css.map */

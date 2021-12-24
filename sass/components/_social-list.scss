@@ -8,15 +8,12 @@
   transition: background-color $transition-cubic;
 }
 
-.social-list__link--secondary-color {
-  background-color: rgba($primary-bgr-color, 0.1);
-}
-
 .social-list__link {
   @extend %d-flex-center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  color: $border-clients-color;
   transition: background-color $transition-cubic;
   &:hover,
   &:focus {
@@ -24,9 +21,14 @@
   }
 }
 
+.social-list__link--secondary-color {
+  color: $secondary-text-color;
+  background-color: rgba($primary-bgr-color, 0.1);
+}
+
 .social-list__link:hover .social-list__icon,
 .social-list__link:focus .social-list__icon {
-  fill: $secondary-text-color;
+  color: $secondary-text-color;
 }
 
 .social-list__item:not(:first-child) {
@@ -34,6 +36,6 @@
 }
 
 .social-list__icon {
-  fill: $border-clients-color;
+  fill: currentColor;
   transition: fill $transition-cubic;
 }

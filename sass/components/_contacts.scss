@@ -3,9 +3,9 @@
   margin-left: auto;
 }
 
-.contacts:not(:last-child) {
-  margin-right: 50px;
-}
+// .contacts__item:not(:last-child) {
+//   margin-right: 50px;
+// }
 
 .contacts__link {
   font-style: normal;
@@ -20,7 +20,9 @@
   @extend %d-flex;
   align-items: center;
   justify-content: center;
-  margin-left: 30px;
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
 }
 
 .contacts__link:hover,
